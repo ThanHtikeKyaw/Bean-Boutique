@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bean Boutique: Special Offers and Subscriptions</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="logo"> 
+                <img src="image/th-187886986.jpg" alt="Bean Boutique Logo">
+                <span>Bean Boutique</span>
+                <input type="checkbox" id="check">
+            
+                <ul class="navbar">
+                    <li><a href="indexs.html">Home</a></li>
+                    <li><a href="menu.html">Coffee Selection</a></li>
+                    <li><a href="BrewingEquipment.html">Brewing Equipment</a></li>
+                    <li><a href="eventAndWorkshops.html">Events and Workshops</a></li>
+                    <li><a href="SpecialOffersandSubscriptions.html">Special Offers and Subscriptions</a></li>
+                    <li><a href="ShoppingCart.html">Shopping Cart</a></li>
+                    <li><label for="check" class="close-navbar"><i class="fas fa-times"></i></label></li>
+                </ul>
+                <label for="check" class="open-navbar"><i class="fas fa-bars"></i></label>
+                
+            </div>
+                
+                
+    
+        </nav>
+        <div class="search-form">
+        <input type="search" id="find" placeholder="search here..." onkeyup="search()">
+        
+        </div>
+    
+        <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                </svg>
+                <span>0</span>
+            </div>
+        
+    </header>
+    
+    <section class="special-offers">
+        <h2>Special Offers</h2>
+        <div class="offer">
+            <h3>Buy One Get One Free</h3>
+            <p>Enjoy our limited-time offer of Buy One Get One Free on all our freshly brewed coffee. Available every Monday.</p>
+        </div>
+        <div class="offer">
+            <h3>15% Off on All Beverages</h3>
+            <p>Get 15% off on all beverages when you order online. Use code COFFEE15 at checkout.</p>
+        </div>
+        <div class="offer">
+            <h3>Free Pastry with Every Large Coffee</h3>
+            <p>Grab a free pastry of your choice with every purchase of a large coffee. Offer valid on weekends only.</p>
+        </div>
+    </section>
+
+    <section class="subscriptions">
+        <h2>Subscription Plans</h2>
+        <div class="subscription">
+            <h3>Basic Plan</h3>
+            <p>$15 per month</p>
+            <ul>
+                <li>1 Coffee Delivery per Week</li>
+                <li>Exclusive Discounts</li>
+                <li>Free Mug on Signup</li>
+            </ul>
+            <button onclick="openRegistrationForm()">Subscribe Now</button>
+        </div>
+        <div class="subscription">
+            <h3>Standard Plan</h3>
+            <p>$25 per month</p>
+            <ul>
+                <li>2 Coffee Deliveries per Week</li>
+                <li>Exclusive Discounts</li>
+                <li>Free Mug and T-shirt on Signup</li>
+            </ul>
+            <button onclick="openRegistrationForm()">Subscribe Now</button>
+        </div>
+        <div class="subscription">
+            <h3>Premium Plan</h3>
+            <p>$40 per month</p>
+            <ul>
+                <li>Unlimited Coffee Deliveries</li>
+                <li>Exclusive Discounts</li>
+                <li>Free Mug, T-shirt, and Tote Bag on Signup</li>
+            </ul>
+            <button onclick="openRegistrationForm()">Subscribe Now</button>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Bean Boutique. All rights reserved.</p>
+            <p>Follow us on:</p>
+            <ul class="social-media">
+                <li><a href="https://facebook.com/beanboutique" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/beanboutique" target="_blank">Twitter</a></li>
+                 <li><a href="https://instagram.com/beanboutique" target="_blank">Instagram</a></li>
+            </ul>
+            <p>Contact us at: <a href="mailto:info@beanboutique.com">info@beanboutique.com</a></p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+        </div>
+    </footer>
+</body>
+</html>
